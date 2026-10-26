@@ -5,7 +5,9 @@
 
 ## 演示
 
-<video src="https://github.com/user-attachments/assets/741dd941-f4c7-4b13-9f9b-a113327cac7c" controls muted playsinline width="50%"></video>
+<p align="center">
+  <img src="演示视频.gif" alt="EyeDetect 演示动画" width="50%">
+</p>
 
 ## 核心流程
 
@@ -39,7 +41,7 @@ OpenCV 可视化与偏移提醒
 EyeDetect/
 ├── main.py                         # 摄像头入口与实时推理循环
 ├── requirements.txt                # 基础依赖
-├── 演示视频.mp4                    # 项目演示
+├── 演示视频.gif                    # 项目演示动画
 └── pygaze/
     ├── pygaze.py                   # PyGaze 推理接口与结果封装
     ├── gaze_estimator.py            # 人脸、头姿和注视估计流程
